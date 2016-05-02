@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Cross Word</title>
+  <meta name="viewport" content="width=device-width">
+  <style>
+    td {
+      width: 20px;
+      height: 20px;
+      line-height: 20px;
+      text-align: center;
+      border: solid 1px #e0e0e0;
+    }
+  </style>
+</head>
+<body>
+    words:<textarea name="words" id="words" cols="30" rows="5">
+play,
+tennis,
+piano,
+ride,
+club,
+term,
+board,
+well,
+all,
+worry,
+teach,
+then,
+monitor,
+start,
+ready,
+promise,
+fast,
+fit,
+just,
+ball,
+game,
+team,
+best,
+score,
+tidy,
+sure,
+everybody,
+beautiful,
+fly,
+kite,
+swim,
+    </textarea>
+    size:<input id="size" value="19" type="text">
+    level:<input id="level" value="1" type="text">
+    <button id="generate">generate</button>
+    <table id="container">
+        <tbody></tbody>
+    </table>
+    <script src="js/crossword.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
