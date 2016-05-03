@@ -8,13 +8,13 @@
 
 ```javascript
 var size = 19;
-var words = ['apple', 'orange'/* , more ... */];
-var level = 1;
+var words = ['apple', 'orange'/* , more word ... */];
+var level = 1; // more times 
 
 var board = new Board(size);
 
-var generator = new Generator(board, wordList, level);
-generator.create();
+var generator = new Generator(board, words, level);
+var isAll = generator.create();
 
 console.table(board.points);
 ```
